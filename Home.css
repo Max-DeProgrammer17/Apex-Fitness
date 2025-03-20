@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  scroll-behavior: smooth;
+}
+/* Navbar Styles */
+.navbar {
+  background-color: gainsboro;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+
+.hero img {
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+}
+
+.hero h1 {
+  font-weight: bolder;
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  color: darkslategray;
+}
+
+.links ul > li > a {
+  text-decoration: none;
+  color: darkslategray;
+}
+
+.links ul > li > a:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  padding: 14px;
+  border-radius: 0.2rem;
+}
+
+.links ul {
+  list-style-type: none;
+  display: flex;
+  gap: 34px;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+.bgimg {
+  background-color: red;
+  height: 550px;
+}
+
+.bgimg img {
+  width: 100%;
+  height: 550px;
+  filter: brightness(45%);
+}
+.texton {
+  width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 8%;
+}
+
+.texton button {
+  width: 180px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 0.2rem;
+  border: none;
+  background-color: rgb(109, 152, 9);
+}
+
+.texton button:hover {
+  background-color: black;
+  transition: 0.5s ease-in-out;
+}
+
+.texton button > a {
+  text-decoration: none;
+  color: white;
+}
+
+.texton h1 {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  color: white;
+}
+
+.texton p {
+  font-size: 1.8rem;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  height: 300px;
+}
+
+.container {
+  border-radius: 0.2rem;
+  height: 250px;
+  width: 50%;
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container .btns {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 24px;
+}
+
+.container .btns button {
+  background-color: white;
+  border: none;
+}
+
+.container .btns button > i {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.section {
+  margin: 44px 0px 0px 0px;
+}
+
+.section h1 {
+  font-family: verdana;
+  color: darkslategray;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.section p {
+  font-size: 1.8rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.team {
+  height: 400px;
+  margin: 20px 0px 0px 0px;
+}
+
+.teams {
+  font-family: verdana;
+  color: darkslategray;
+  font-size: 1.7rem;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.wrapper {
+  display: flex;
+  height: 400px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wrapper .img {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper div > img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.wrapper div h3,
+.wrapper div p {
+  text-align: center;
+  font-size: 2rem;
+  color: darkslategray;
+  margin-top: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.topbtn{
+  position: fixed;
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  top: 78%;
+  left: 95%;
+  display: none;
+}
+
+.footer {
+  background-color: gainsboro;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: darkslategray;
+  padding: 30px;
+  text-align: center;
+}
