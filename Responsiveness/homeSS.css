@@ -1,0 +1,90 @@
+
+@media(max-width: 480px){
+    body{
+        width: 480px;
+    }
+   .navbar{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+   }
+   .hero{
+    display: flex;
+    gap: 70px;
+   }
+   .hero > h1{
+    text-align: center;
+   }
+
+   .links > ul{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    padding:10px 0 10px;
+   }
+
+   .bgimg > img{
+    width: 480px;
+    height: 480px;
+   }
+
+   .bgimg > .texton {
+    width: 320px;
+   }
+
+   .bgimg > .texton h1{
+    font-size: 25px;
+   }
+
+   .bgimg > .texton p{
+     font-size: large;
+   }
+
+   .bgimg > .texton button{
+    margin: 15px 0px 0px 0px;
+   }
+
+   .testimonials{
+     width: 480px;
+   }
+
+   .testimonials > .container > .textCont{
+    font-size: larger;
+   }
+
+   .section{
+    width: 480px;
+    font-size: small;
+    text-align: center;
+   }
+
+   .teams{text-align: center;}
+
+   .wrapper{
+      display: block;
+      height: 800px;
+      padding: 10px 0px 0px 0px;
+   }
+
+   .wrapper > div p{
+    padding-bottom: 20px;
+   }
+   
+   .wrapper .img > img{
+    width: 10rem;
+    height: 10rem;
+   }
+
+   .topbtn{
+     left: 88%;
+   }
+
+   .footer{
+    margin-top: 30rem;
+   }
+
+
+
+
+
+}

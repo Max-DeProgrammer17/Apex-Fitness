@@ -59,7 +59,6 @@ body{
 }
 
 .bgimg {
-  background-color: red;
   height: 550px;
 }
 
@@ -233,4 +232,6 @@ body{
   color: darkslategray;
   padding: 30px;
   text-align: center;
+  position: relative;
+  top: 100%;
 }
