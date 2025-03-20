@@ -1,0 +1,16 @@
+
+
+@media(max-width: 480px){
+    body{
+        filter: brightness(90%);
+        background-position: center;
+    }
+
+    form > input:focus{
+        border-color: red;
+    }
+
+    .have p{
+        text-align: center;
+    }
+}
