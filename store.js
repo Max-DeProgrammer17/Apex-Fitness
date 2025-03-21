@@ -21,11 +21,6 @@ let btns = document.querySelectorAll(".btnn");
 btns.forEach((btn) => {
     btn.addEventListener("click", ()=>{
         shopcount.innerHTML++;
-        let cart = btn.closest(".cart");
-      let nname = cart.querySelector("h2").textContent;
-      let price = cart.querySelector("h3").textContent;
-
-      console.log( nname, price);
 
         
     })
