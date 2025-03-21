@@ -20,9 +20,7 @@ let shopcount = document.querySelector(".count");
 let btns = document.querySelectorAll(".btnn");
 btns.forEach((btn) => {
     btn.addEventListener("click", ()=>{
-        shopcount.innerHTML++;
-
-        
+        shopcount.innerHTML++; 
     })
 });
 
