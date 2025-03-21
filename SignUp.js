@@ -18,6 +18,12 @@ btn.addEventListener("click", (e) => {
     e.preventDefault();
     userName.focus();
   }
+
+  if(!(userEmail.value.includes("@"))){
+    console.log("Ensure your Email includes @");
+    e.preventDefault();
+    userEmail.focus();
+  }
   if (passOne.value !== passTwo.value) {
     alert("Incorrect Password Details");
     e.preventDefault();
